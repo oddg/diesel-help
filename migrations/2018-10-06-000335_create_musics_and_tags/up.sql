@@ -1,0 +1,8 @@
+CREATE TABLE musics (
+  id SERIAL PRIMARY KEY
+);
+
+CREATE TABLE tags  (
+  id SERIAL PRIMARY KEY,
+  music_id INTEGER REFERENCES musics(id) NOT NULL
+)

@@ -1,0 +1,7 @@
+[package]
+name = "diesel-help"
+version = "0.1.0"
+authors = ["oddg <odegevigney@gmail.com>"]
+
+[dependencies]
+diesel = { version = "1.3.3", features = ["postgres"] }
